@@ -19,9 +19,9 @@ form.addEventListener('submit', (e) => {
             window.location.href = nextPageUrl; // Redirect after a slight delay
         }, 500);
     } else {
-        resultDiv.innerHTML = 'Hmm… tum meri Devanshi jaise nahi lag rahe ho. Phir tum kaun ho? 😌
-Meri Sona kahan hai, mujhe batao… 🫶';
+        resultDiv.innerHTML = 'Hmm… tum meri Devanshi jaise nahi lag rahe ho. Phir tum kaun ho? 😌 Meri Sona kahan hai, mujhe batao… 🫶';
     }
 });
+
 
 
