@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
     console.log("Comparison Result:", userInput.toLowerCase() === secretCode.toLowerCase());
 
     if (userInput.toLowerCase() === secretCode.toLowerCase()) {
-        resultDiv.innerHTML = 'Harika';
+        resultDiv.innerHTML = 'Devanshi';	
         setTimeout(() => {
             window.location.href = nextPageUrl; // Redirect after a slight delay
         }, 500);
@@ -22,6 +22,5 @@ form.addEventListener('submit', (e) => {
         resultDiv.innerHTML = 'Hmm… tum meri Devanshi jaise nahi lag rahe ho. Phir tum kaun ho? 😌 Meri Sona kahan hai, mujhe batao… 🫶';
     }
 });
-
 
 
